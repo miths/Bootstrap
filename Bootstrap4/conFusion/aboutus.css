@@ -2,6 +2,8 @@
   /* display: block; */
   background: #958df2;
   color: floralwhite;
+    /* margin-top: 80px;
+    height: 200px; */
 }
 
 .footer{
@@ -12,8 +14,15 @@
 
 
 .container{
-  margin-top: 40px;
-  margin-bottom: 40px;
+  /* margin-top: 40px; */
+  /* margin-bottom: 40px; */
+}
+
+input[type='radio']{
+  margin-left:  20px;
+}
+a:hover{
+  text-decoration: none;
 }
 
 .history{
@@ -26,4 +35,12 @@ body{
 }
 .navbar-dark{
   background-color: #512DA8;
+}
+
+.btn-sm{
+  height: 55px;
+  width: 150px;
+  text-align: center;
+  padding: 1.4%;
+  font-size: 1em;
 }
